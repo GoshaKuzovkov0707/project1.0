@@ -4,6 +4,8 @@ chislo = randint(1, 100)
 
 game = True
 
+file = open('game_result', 'w', encoding="utf8") 
+
 print('Попробуйте угадать число от 1 до 100')
 
 while game:
@@ -15,3 +17,5 @@ while game:
         print(f'Ответ неправильный, попоробуй число больше чем {god}')
     elif god > chislo:
         print(f'Ответ неправильный, попоробуй число меньше чем {god}')
+
+file.close()
