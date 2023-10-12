@@ -1,12 +1,12 @@
 from random import randint
 
-chislo = randint(1, 100)
+chislo = randint(1, 1000)
 
 game = True
 
 file = open('game_result', 'w', encoding="utf8") 
 
-print('Попробуйте угадать число от 1 до 100')
+print('Попробуйте угадать число от 1 до 1000')
 
 while game:
     god = int(input('Ваш выбор : '))

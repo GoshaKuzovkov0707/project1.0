@@ -1,5 +1,5 @@
 def game():
-    word = ['turtle']
+    word = ['hello']
     lifes = 5
     progress = True
 
